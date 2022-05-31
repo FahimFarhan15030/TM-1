@@ -8,10 +8,15 @@ html{
     scroll-behavior: smooth;
 }
 body{
+   /* font-family: 'Handlee', cursive;*/
+    font-family: 'Montserrat', sans-serif;
+    
 
 }
+/*header start*/
 h1,h2{
 
+    font-family: 'Roboto', sans-serif;
 }
 header{
     background-image: url("images/pexels-photo-301920.webp");
@@ -19,6 +24,29 @@ header{
     background-attachment: no-repeat;
     background-size: cover;
 }
+.navbar{
+    padding:1% 10%;
+    background-color: rgba(0,0,0,0.3);
+}
+.navbar-icon{
+    color: white;
+}
+.navbar-brand img{
+    width: 60%;
+    height: auto;
+}
+.navlink{
+    color:bisque;
+    margin: 10px;
+    border-radius: 5px;
+    transform: .4s;
+}
+.nav-link:hover{
+    background: #2980b9;
+    color:white;
+     transform: scale(1.1);
+}
 .banner-container{
     height: 100vh;
 }
+/*header end*/
