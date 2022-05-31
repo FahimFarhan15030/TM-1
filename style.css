@@ -57,3 +57,44 @@ header{
     border-radius: 5px;
 }
 /*header end*/
+
+/*features start*/
+
+#features{
+
+    padding: 5% 10%;
+    background: #e8ded2;
+
+}
+.features-col{
+border:1px solid #ff02c0;
+border-radius: 5px;
+padding :15px;
+margin:20px 0;
+transition:.4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow:2px 6px 5px #351b2e;
+}
+.icon-style{
+    background: #bb0aac;
+    color:white;
+    padding:15px;
+    margin:5px 0;
+}
+/*features end*/
+
+/*contact start*/
+#Sing-up{
+    padding:2% 10%;
+    background: #5eaaa8;
+}
+.form-group lable{
+    margin-bottom:0;
+    font-weight: bold;
+}
+footer{
+    padding:1% 10%;
+    background: #056676;
+}
